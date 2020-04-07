@@ -1,5 +1,5 @@
 {
-  "homepage": "http://abhiram040.github.io/Student",
+  "homepage": "http://abhiram040.github.io/Student/public",
   "name": "student-persona",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy":"yarn run build",
-    "deploy":"gh-Pages -d build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
